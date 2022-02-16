@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .card-title, .card-body {
+    @apply font-quicksand;
+  }
+  .nav ul li{
+    @apply relative list-none w-full flex items-center rounded-l-xl content-center;
+  }
+  .nav ul li.active{
+    @apply bg-blue;
+  }
+  .nav ul li a{
+    @apply relative w-full flex no-underline text-white items-stretch align-middle;
+  }
+  .nav ul li.active a::before{
+    @apply content-[''] absolute top-l30 right-0 w-8 h-8 rounded-3xl shadow-4xl;
+  }
+  .nav ul li.active a::after{
+    @apply content-[''] absolute bottom-l30 right-0 w-8 h-8 rounded-3xl shadow-5xl;
+  }
+  .nav ul li a .icon{
+    @apply relative block min-w-[60px] h-14 text-center leading-5 z-10;
+  }
+  .nav ul li a .title{
+    @apply relative block pl-3 h-14 whitespace-nowrap leading-5 align-middle font-medium;
+  }
+}
+
+@layer components{
+  
+}
