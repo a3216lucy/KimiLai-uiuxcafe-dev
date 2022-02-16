@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div class="right-10 text-center">Home</div>
   )
 }
 
