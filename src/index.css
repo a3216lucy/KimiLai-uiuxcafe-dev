@@ -16,7 +16,7 @@
     @apply bg-blue;
   }
   .nav ul li a{
-    @apply relative w-full flex no-underline text-white items-stretch align-middle;
+    @apply pt-4 relative w-full flex no-underline text-white items-stretch align-middle;
   }
   .nav ul li.active a::before{
     @apply content-[''] absolute top-l30 right-0 w-8 h-8 rounded-3xl shadow-4xl;

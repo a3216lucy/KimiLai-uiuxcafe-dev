@@ -24,18 +24,18 @@ function CardB() {
 
           <div class="pl-6 pr-8 pt-4 pb-2 sm:text-sm">
             <div class="flex flex-nowrap flex-row justify-between items-stretch">
-              <div class="flex flex-nowrap flex-row">
+              <div class="flex flex-nowrap flex-row items-center mb-2">
                 <div class="text-slate-600">
                   <FontAwesomeIcon icon={faBed} />
                 </div>
-                <div class="text-black font-bold text-lg mb-2 mx-2">3</div>
+                <div class="text-black font-bold text-lg mx-2">3</div>
                 <p class="text-gray-600 font-normal text-lg">Bedrooms</p>
               </div>
-              <div class="flex flex-nowrap flex-row ml-2">
+              <div class="flex flex-nowrap flex-row ml-2 items-center mb-2">
                 <div class="text-slate-600">
                   <FontAwesomeIcon icon={faBath} />
                 </div>
-                <div class="text-black font-bold text-lg mb-2 mx-2">3</div>
+                <div class="text-black font-bold text-lg mx-2">3</div>
                 <p class="text-gray-600 font-normal text-lg">Bedrooms</p>
               </div>
             </div>

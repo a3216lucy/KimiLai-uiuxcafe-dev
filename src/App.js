@@ -25,44 +25,44 @@ const App = () => {
         <div class="nav relative h-screen w-16 bg-dark-blue shadow-3xl border-l-8 border-dark-blue overflow-x-hidden hover:w-60 transition duration-300">
           <ul class="absolute top-0 left-0 w-full pl-2 mt-10">
             <li class="list active">
-              <Link exact to="/">
-                <a>
+              <a>
+                <Link exact to="/">
                   <span class="icon">
                     <FontAwesomeIcon icon={faHouse} />
                   </span>
                   <span class="title">Home</span>
-                </a>
-              </Link>
+                </Link>
+              </a>
             </li>
             <li class="list">
-              <Link to="/CardA">
-                <a>
+              <a>
+                <Link to="/CardA">
                   <span class="icon">
                     <FontAwesomeIcon icon={faA} />
                   </span>
                   <span class="title">CardA</span>
-                </a>
-              </Link>
+                </Link>
+              </a>
             </li>
             <li class="list">
-              <Link to="/CardB">
-                <a>
+              <a>
+                <Link to="/CardB">
                   <span class="icon">
                     <FontAwesomeIcon icon={faB} />
                   </span>
                   <span class="title">CardB</span>
-                </a>
-              </Link>
+                </Link>
+              </a>
             </li>
             <li class="list">
-              <Link to="/">
-                <a>
+              <a>
+                <Link to="/">
                   <span class="icon">
                     <FontAwesomeIcon icon={faFilePowerpoint} />
                   </span>
                   <span class="title">Slide Web</span>
-                </a>
-              </Link>
+                </Link>
+              </a>
             </li>
           </ul>
         </div>
