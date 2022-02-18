@@ -15,13 +15,24 @@ module.exports = {
       colors: {
         'blue': '#4187f6',
         'dark-blue':'rgb(30 41 59)',
+        'light-blue': '#0399ec',
+        'orange': '#ff5f45',
+        'darker-blue': '#005069',
+        'pink': '#fd6c7c',
+        'yellow': '#fec402', 
       },
       borderRadius: {      
         'large': '50%',    
       },
       spacing: {        
         'l30': '-30px',      
-      }
+      },
+      fontSize:{
+        '10xl':'10rem',
+      }, 
+      screens: {
+        'ph': '375px',
+      },
     },
   },
   variants: {

@@ -1,13 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBath, faBed } from '@fortawesome/free-solid-svg-icons';
+import { faHeart } from '@fortawesome/free-regular-svg-icons';
 
 function CardB() {
   return (
     <div class="flex justify-center items-center">
       <div class="max-w-sm rounded-md overflow-hidden shadow-lg my-14 mx-20 md:max-w-md">
         <img
-          class="w-full"
+          class="CardB-pic w-full"
           src="https://images.wunderstock.com/White-And-Brown-House_vPXatHMabMqp_800.jpeg"
           alt="CardB Pic"
         />
