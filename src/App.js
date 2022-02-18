@@ -48,11 +48,11 @@ function App() {
     <BrowserRouter>
       <div
         id="top"
-        class="w-full flex flex-col fixed sm:relative sm:m-0 sm:p-0 bg-white pin-t pin-r pin-l"
+        class="w-full flex flex-col fixed  sm:m-0 sm:p-0 bg-white pin-t pin-r pin-l"
       >
         <nav
           id="site-menu"
-          class="flex flex-col sm:flex-row w-full justify-between items-center px-4 py-4 sm:px-6  bg-white shadow sm:shadow-none border-t-4 border-darker-blue"
+          class="flex flex-col sm:flex-row w-full justify-between items-center px-4 py-4 sm:px-6  bg-white shadow  border-t-4 border-darker-blue"
         >
           <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
             <Link exact to={process.env.PUBLIC_URL + '/'}>
@@ -64,7 +64,7 @@ function App() {
           </div>
           <div
             id="menu"
-            class="w-full sm:w-auto sm:self-center sm:flex flex-col sm:flex-row justify-evenly items-center h-full py-4  sm:py-0 sm:pb-0  hidden"
+            class="w-full sm:w-auto sm:self-center sm:flex flex-col sm:flex-row justify-evenly items-center h-full py-3 sm:py-0 sm:pb-0  hidden"
           >
             <Link exact to={process.env.PUBLIC_URL + '/'}>
               <p class="text-black font-bold hover:text-darker-blue active:text-darker-blue text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2 active">

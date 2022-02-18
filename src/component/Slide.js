@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import ReactFullpage from '@fullpage/react-fullpage';
 
 class Slide extends React.Component {
@@ -12,11 +13,19 @@ class Slide extends React.Component {
  
         render={() => {
           return (
-            <div class="fullpage-wrapper">
+          <>
+            <ul class="myMenu fixed top-[2rem] left-[2rem] sm:left-[4rem] z-9999">
+              <li class="text-white font-medium text-2xl cursor-pointer hover:text-dark-blue">
+                <Link exact to={process.env.PUBLIC_URL + '/'}>
+                Home
+                </Link>
+                </li>
+            </ul>
+            <div class="fullpage">
               <div className="section bg-orange h-[100vh] flex items-center">
                 <div class="container flex flex-col items-center text-center align-middle">
                   <div>
-                    <h1 class="text-center text-white font-bold text-10xl mt-16">
+                    <h1 class="text-center text-white font-bold text-6xl md:text-10xl mt-16">
                       fullPage
                     </h1>
                     <h3 class="text-center text-3xl text-zinc-300">
@@ -24,17 +33,17 @@ class Slide extends React.Component {
                     </h3>
                   </div>
                   <div>
-                    <button class="button text-orange bg-white mx-3 my-8">
+                    <button class="button text-orange bg-white mx-3 my-8 hover:bg-transparent hover:text-white hover:border-white hover:border-2">
                       <a href="https://alvarotrigo.com/fullPage/extensions/" target="_blank" >
                         Extensions
                       </a>
                     </button>
-                    <button class="button text-white bg-darker-blue mx-3 my-8">
+                    <button class="button text-white bg-darker-blue mx-3 my-8 hover:bg-transparent hover:text-darker-blue hover:border-darker-blue hover:border-2">
                       <a href="https://github.com/alvarotrigo/fullpage.js/archive/master.zip" target="_blank" >
                         Download
                       </a>
                     </button>
-                    <button class="button text-orange bg-white mx-3 my-8">
+                    <button class="button text-orange bg-white mx-3 my-8 hover:bg-transparent hover:text-white hover:border-white hover:border-2">
                       <a href="https://github.com/alvarotrigo/fullpage.js" target="_blank" >
                         View on GitHub
                       </a>
@@ -50,7 +59,7 @@ class Slide extends React.Component {
                 <div class="container flex flex-row items-center">
                   <div class="slide flex items-center" data-anchor="slide1">
                     <div class="flex flex-col">
-                      <h1 class="text-center text-white font-bold text-10xl mt-16">
+                      <h1 class="text-center text-white font-bold text-6xl md:text-10xl mt-16">
                         Open
                       </h1>
                       <h3 class="text-center text-3xl text-white">
@@ -63,7 +72,7 @@ class Slide extends React.Component {
                   </div>
                   <div class="slide flex items-center" data-anchor="slide2">
                     <div class="flex flex-col items-center">
-                      <h1 class="text-center text-white font-bold text-10xl mt-16">
+                      <h1 class="text-center text-white font-bold text-6xl md:text-10xl mt-16">
                         The best!
                       </h1>
                       <h3 class="text-center text-3xl text-white">
@@ -77,7 +86,7 @@ class Slide extends React.Component {
                   </div>
                   <div class="slide flex items-center" data-anchor="slide3">
                     <div class="flex flex-col items-center">
-                      <h1 class="text-center text-white font-bold text-10xl mt-16">
+                      <h1 class="text-center text-white font-bold text-6xl md:text-10xl mt-16">
                         Compatible
                       </h1>
                       <h3 class="text-center text-3xl text-white">
@@ -94,7 +103,7 @@ class Slide extends React.Component {
               <div className="section bg-pink h-[100vh] flex flex-col items-center justify-center">
                 <div class="container flex flex-row items-center">
                   <div class="w-2/5 mx-20 flex flex-col items-start justify-start">
-                    <h1 class="text-left text-white font-bold text-10xl">
+                    <h1 class="text-left text-white font-bold text-6xl md:text-10xl">
                       Easy!
                     </h1>
                     <h3 class="text-2xl text-white text-left">
@@ -112,9 +121,9 @@ class Slide extends React.Component {
                 </div> 
               </div>
               <div className="section bg-yellow h-[100vh] flex flex-col items-center justify-center">
-                <div class="container">
+                <div class="container flex flex-col items-center">
                   <div>
-                    <h1 class="text-center text-white font-bold text-10xl mt-16">
+                    <h1 class="text-center text-white font-bold text-6xl md:text-10xl mt-16">
                       Touch me!
                     </h1>
                     <h3 class="text-center text-3xl text-white z-50">
@@ -127,6 +136,7 @@ class Slide extends React.Component {
                 </div>
               </div>
             </div>
+            </>
       );
     }}
   />

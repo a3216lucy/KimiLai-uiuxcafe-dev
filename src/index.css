@@ -8,48 +8,6 @@
   .card-title, .card-body {
     @apply font-quicksand;
   }
-  .nav ul li{
-    @apply relative list-none w-full flex items-center rounded-l-xl content-center;
-  }
-  .nav ul li.active{
-    @apply bg-blue;
-  }
-  .nav ul li a{
-    @apply pt-4 relative w-full flex no-underline text-white items-stretch align-middle;
-  }
-  .nav ul li.active a::before{
-    @apply content-[''] absolute top-l30 right-0 w-8 h-8 rounded-3xl shadow-4xl;
-  }
-  .nav ul li.active a::after{
-    @apply content-[''] absolute bottom-l30 right-0 w-8 h-8 rounded-3xl shadow-5xl;
-  }
-  .nav ul li a .icon{
-    @apply relative block min-w-[60px] h-14 text-center leading-5 z-10;
-  }
-  .nav ul li a .title{
-    @apply relative block pl-2 h-14 whitespace-nowrap leading-5 align-middle font-medium;
-  }
-  section{
-    @apply h-[100vh] !pt-5 ease-in-out delay-150;
-  }
-  nav{
-    @apply float-right fixed;
-  }
-  .navbar .menu{
-    @apply -left-full w-full text-center m-0;
-  }
-  .navbar .menu.active {
-    @apply left-0 z-50;
-  }
-  .navbar .menu li {
-    @apply block float-left;
-  }
-  .navbar .menu li a {
-    @apply inline-block my-5 text-xl mx-3;
-  }
-  .navbar .menu li a:hover {
-    @apply border-b-2 border-white;
-  }
   .slider .box {
     @apply h-full w-full grid items-center grid-cols-2 overflow-hidden relative;
   }

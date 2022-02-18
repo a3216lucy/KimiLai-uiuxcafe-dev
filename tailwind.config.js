@@ -34,6 +34,9 @@ module.exports = {
       screens: {
         'ph': '375px',
       },
+      zIndex: {
+        '9999': '9999',      
+      },
     },
   },
   variants: {
