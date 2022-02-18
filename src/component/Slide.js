@@ -5,13 +5,12 @@ class Slide extends React.Component {
   render() {
     return (
       <ReactFullpage
-        licenseKey={"YOUR_LICENSE_KEY"}
         navigation = {true}
         scrollingSpeed = {1000} 
         slidesNavigation = {true}
         slidesNavPosition = {'bottom'}
  
-        render={({ state,  }) => {
+        render={() => {
           return (
             <div class="fullpage-wrapper">
               <div className="section bg-orange h-[100vh] flex items-center">

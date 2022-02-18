@@ -3,7 +3,7 @@
 Totally develop by using `TailwindCSS` + `React` 
 ## Demo
 
-[Live URL](#)
+[Live URL](https://a3216lucy.github.io/KimiLai-uiuxcafe-dev/)
 
 ## What I learned from this project
 

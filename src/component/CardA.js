@@ -3,7 +3,7 @@ import React from 'react';
 function CardA() {
   return (
     <div class="flex justify-center items-center">
-      <div class="max-w-sm mx-16 rounded overflow-hidden shadow-xl my-28 md:max-w-md">
+      <div class="CardA max-w-sm mx-16 rounded overflow-hidden shadow-xl my-28 hover:left-[50px] hover:transform-gpu hover:-translate-x-2 hover:-translate-y-2 hover:shadow-6xl md:max-w-md">
         <img
           class="w-full"
           src="https://www.insightwebsites.net.au/veterinarian/wp-content/uploads/sites/106/2019/07/4ee6124a-0a83-317e-89ba-c8afe63d6087-1080x675.jpg"

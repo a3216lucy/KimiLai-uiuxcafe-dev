@@ -6,7 +6,7 @@ import { faHeart } from '@fortawesome/free-regular-svg-icons';
 function CardB() {
   return (
     <div class="flex justify-center items-center">
-      <div class="max-w-sm rounded-md overflow-hidden shadow-lg my-14 mx-20 md:max-w-md">
+      <div class="max-w-sm rounded-md overflow-hidden shadow-lg my-14 mx-5 md:max-w-md hover:left-[50px] hover:transform-gpu hover:-translate-x-2 hover:-translate-y-2 hover:shadow-6xl">
         <img
           class="CardB-pic w-full"
           src="https://images.wunderstock.com/White-And-Brown-House_vPXatHMabMqp_800.jpeg"
