@@ -13,7 +13,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 
-
 const list = document.querySelectorAll('.list');
 function activeLink() {
   list.forEach((item) => item.classList.remove('active'));
@@ -29,7 +28,7 @@ const App = () => {
           <ul class="absolute top-0 left-0 w-full mt-10">
             <li class="list active">
               <a>
-                <Link exact to="/">
+                <Link  exact to={process.env.PUBLIC_URL + '/'}>
                   <span class="icon">
                     <FontAwesomeIcon icon={faHouse} />
                   </span>
@@ -39,7 +38,7 @@ const App = () => {
             </li>
             <li class="list">
               <a>
-                <Link to="/CardA">
+                <Link to={process.env.PUBLIC_URL + '/CardA'}>
                   <span class="icon">
                     <FontAwesomeIcon icon={faA} />
                   </span>
@@ -49,7 +48,7 @@ const App = () => {
             </li>
             <li class="list">
               <a>
-                <Link to="/CardB">
+                <Link to={process.env.PUBLIC_URL + '/CardB'}>
                   <span class="icon">
                     <FontAwesomeIcon icon={faB} />
                   </span>
@@ -59,7 +58,7 @@ const App = () => {
             </li>
             <li class="list">
               <a>
-                <Link to="/Slide">
+                <Link to={process.env.PUBLIC_URL + '/Slide'}>
                   <span class="icon">
                     <FontAwesomeIcon icon={faFilePowerpoint} />
                   </span>
@@ -71,10 +70,10 @@ const App = () => {
         </div>
         <div class="container left-10">
           <Routes>
-            <Route path="/CardA" element={<CardA />} />
-            <Route path="/CardB" element={<CardB />} />
-            <Route path="/Slide" element={<Slide />} />
-            <Route exact path="/" element={<Home />} />
+            <Route path={process.env.PUBLIC_URL + '/CardA'} element={<CardA />} />
+            <Route path={process.env.PUBLIC_URL + '/CardB'} element={<CardB />} />
+            <Route path={process.env.PUBLIC_URL + '/Slide'} element={<Slide />} />
+            <Route exact path={process.env.PUBLIC_URL + '/'} element={<Home />} />
           </Routes>
         </div>
       </div>

@@ -10,7 +10,6 @@ Totally develop by using `TailwindCSS` + `React`
 - [x] Use flex to finish the layout by design doc from UIUX Cafe
 - [x] Import icons from font awesome
 - [x] Render each pages by using react-router-dom v6 
-- [x] Most important task is at the top of the page
 - [x] Use `fullpage` plugin to develop slide page
 ## Installation
 
