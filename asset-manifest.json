@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/KimiLai-uiuxcafe-dev/static/css/main.368b89ff.css",
-    "main.js": "/KimiLai-uiuxcafe-dev/static/js/main.194d0b68.js",
+    "main.js": "/KimiLai-uiuxcafe-dev/static/js/main.63e781db.js",
     "index.html": "/KimiLai-uiuxcafe-dev/index.html",
     "main.368b89ff.css.map": "/KimiLai-uiuxcafe-dev/static/css/main.368b89ff.css.map",
-    "main.194d0b68.js.map": "/KimiLai-uiuxcafe-dev/static/js/main.194d0b68.js.map"
+    "main.63e781db.js.map": "/KimiLai-uiuxcafe-dev/static/js/main.63e781db.js.map"
   },
   "entrypoints": [
     "static/css/main.368b89ff.css",
-    "static/js/main.194d0b68.js"
+    "static/js/main.63e781db.js"
   ]
 }
