@@ -7,11 +7,11 @@ function CardB() {
   return (
     <div class="flex justify-center items-center">
       <div class="max-w-sm rounded-md overflow-hidden shadow-lg mt-[8rem] mx-5 md:max-w-md hover:left-[50px] hover:transform-gpu hover:-translate-x-2 hover:-translate-y-2 hover:shadow-6xl">
-        <img
-          class="CardB-pic w-full"
-          src="https://images.wunderstock.com/White-And-Brown-House_vPXatHMabMqp_800.jpeg"
-          alt="CardB Pic"
-        />
+      <div class="bg-CardB-pic bg-local bg-cover h-[213px] md:h-[255px] w-[320px] md:w-[384px] text-white">
+          <div class="px-3 py-3 text-right text-xl">
+            <FontAwesomeIcon icon={faHeart} />
+          </div>
+        </div>
         <div class="divide-y divide-slate-70">
           <div class="pl-6 pr-8 py-4">
             <div class="text-gray-600 font-bold text-lg mb-2">
@@ -69,3 +69,7 @@ function CardB() {
 }
 
 export default CardB;
+
+
+
+

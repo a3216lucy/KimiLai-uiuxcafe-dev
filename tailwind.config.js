@@ -37,6 +37,9 @@ module.exports = {
       zIndex: {
         '9999': '9999',      
       },
+      backgroundImage: {
+        'CardB-pic': "url('https://images.wunderstock.com/White-And-Brown-House_vPXatHMabMqp_800.jpeg')",
+      },
     },
   },
   variants: {
