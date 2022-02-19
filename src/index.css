@@ -32,8 +32,8 @@
   .fp-controlArrow.fp-next {
     @apply right-20 cursor-pointer;
   }
-  .fp-slidesNav{
-    @apply left-[50%];
+  .fp-slidesNav li a{
+    @apply text-center !left-[50%] text-white;
   }
 }
 

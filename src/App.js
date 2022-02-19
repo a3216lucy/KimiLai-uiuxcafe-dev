@@ -13,26 +13,6 @@ import {
   faBars,
 } from '@fortawesome/free-solid-svg-icons';
 
-// const list = document.querySelectorAll('.list');
-// function activeLink() {
-//   list.forEach((item) => item.classList.remove('active'));
-//   this.classList.add('active');
-// }
-// list.forEach((item) => item.addEventListener('click', activeLink));
-
-// const menu = document.querySelectorAll('.menu-btn');
-// const nav = document.querySelectorAll('.nav');
-// function activeMenu() {
-//   nav.classList.toggle('active');
-//   menu.classList.toggle('active');
-// }
-// menu.forEach((item) => item.addEventListener('click', activeMenu));
-
-
-// for (var i = 0 ; i < button.length; i++) {
-//   button[i].addEventListener('click', navToggle);
-// }
-
 function App() {
 
   function navToggle() {
@@ -102,64 +82,3 @@ function App() {
 };
 
 export default App;
-
-
-// <BrowserRouter>
-//       <div class="m-0 p-0 box-border flex items-center" id="menu">
-//         <div class="nav relative h-screen w-16 bg-dark-blue shadow-3xl border-l-8 border-dark-blue overflow-x-hidden hover:w-60 transition duration-300">
-//           <ul class="absolute top-0 left-0 w-full mt-10">
-//             <li class="list active">
-//               <a>
-//                 <Link  exact to={process.env.PUBLIC_URL + '/'}>
-//                   <span class="icon">
-//                     <FontAwesomeIcon icon={faHouse} />
-//                   </span>
-//                   <span class="title">Home</span>
-//                 </Link>
-//               </a>
-//             </li>
-//             <li class="list">
-//               <a>
-//                 <Link to={process.env.PUBLIC_URL + '/CardA'}>
-//                   <span class="icon">
-//                     <FontAwesomeIcon icon={faA} />
-//                   </span>
-//                   <span class="title">CardA</span>
-//                 </Link>
-//               </a>
-//             </li>
-//             <li class="list">
-//               <a>
-//                 <Link to={process.env.PUBLIC_URL + '/CardB'}>
-//                   <span class="icon">
-//                     <FontAwesomeIcon icon={faB} />
-//                   </span>
-//                   <span class="title">CardB</span>
-//                 </Link>
-//               </a>
-//             </li>
-//             <li class="list">
-//               <a>
-//                 <Link to={process.env.PUBLIC_URL + '/Slide'}>
-//                   <span class="icon">
-//                     <FontAwesomeIcon icon={faFilePowerpoint} />
-//                   </span>
-//                   <span class="title">Slide</span>
-//                 </Link>
-//               </a>
-//             </li>
-//           </ul>
-//           <div class="menu-btn cursor-pointer hidden ph:block ph:z-50" id="menu-button">
-//             <FontAwesomeIcon icon={faBars} />
-//           </div>
-//         </div>
-//         <div class="container">
-//           <Routes>
-//             <Route path={process.env.PUBLIC_URL + '/CardA'} element={<CardA />} />
-//             <Route path={process.env.PUBLIC_URL + '/CardB'} element={<CardB />} />
-//             <Route path={process.env.PUBLIC_URL + '/Slide'} element={<Slide />} />
-//             <Route exact path={process.env.PUBLIC_URL + '/'} element={<Home />} />
-//           </Routes>
-//         </div>
-//       </div>
-//     </BrowserRouter>
