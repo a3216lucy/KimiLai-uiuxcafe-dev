@@ -4,7 +4,8 @@ Totally develop by using `TailwindCSS` + `React`
 ## Demo
 
 [Live URL](https://a3216lucy.github.io/KimiLai-uiuxcafe-dev/) | [UIUX Cafe Design Doc](https://whimsical.com/5166z6QkGrB96HrLmeeDZp) | [Develop Note](https://hackmd.io/@lyskimi/HyRjQ0nJ5) 
-![](https://i.imgur.com/2fWWYOE.png)
+
+![](https://i.imgur.com/GRpbgua.png)
 
 ## What I learned from this project
 

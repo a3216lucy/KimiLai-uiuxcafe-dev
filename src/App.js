@@ -5,13 +5,7 @@ import CardA from './component/CardA';
 import CardB from './component/CardB';
 import Slide from './component/Slide';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faHouse,
-  faA,
-  faB,
-  faFilePowerpoint,
-  faBars,
-} from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
 
